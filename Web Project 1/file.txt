@@ -1,0 +1,714 @@
+<h1>Form 1</h1> <br> <br>
+    <form>
+        <h3>Level of difficulty</h3>
+        <label>
+            <input type="radio" name="level">
+            Any level
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="level">
+            Beginners
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="level">
+            Advanced
+        </label>
+        <br><br>
+        <h3>Duration</h3>
+        <label>
+            <p>From 1 to 24 months</p>
+            <input type="range">
+            <br>
+            <hr style="width: 125px; margin-left: 4px;">
+        </label>
+        <br>
+        <h3>Major</h3>
+        <label>
+            <input type="checkbox">
+            Frontend
+        </label> <br> <br>
+        <label>
+            <input type="checkbox">
+            Backend
+        </label> <br> <br>
+        <label>
+            <input type="checkbox">
+            AI
+        </label> <br> <br>
+    </form>
+    <br> <br> <br> <br> <br>
+
+    <h1>Form 2</h1> <br> <br>
+
+    <form>
+        <label>
+            Name : 
+            <input type="text" placeholder="Your name" required>
+        </label> <br> <br>
+        <label>
+            Password : 
+            <input type="password" placeholder="Your password" required>
+        </label> <br> <br>
+        <span>Gender : </span>
+        <label>
+            <input type="radio" name="gender">
+            Male
+        </label>
+        <label>
+            <input type="radio" name="gender">
+            Female
+        </label> <br> <br>
+        <label>
+            Email : 
+            <input type="email" placeholder="Your email" required>
+        </label><br> <br>
+
+        <label>
+            Phone number : 
+            <select>
+                <option>998</option>
+                <option>91</option>
+                <option>1</option>
+            </select>
+            <input type="text" placeholder="Your phone number" required>
+        </label> <br> <br>
+
+        <button>Submit</button>
+
+        
+    </form>
+
+    <br> <br> <br> <br> <br>
+
+    <h1>Form 3</h1> <br> <br>
+
+    <form>
+        <h3>Course Registration</h3>
+        <hr>
+        <label>
+            Name : <br>
+            <input type="text" placeholder="Your name" required>
+        </label> <br> <br>
+        <p>The programming language : </p>
+        <label>
+            <input type="radio" name="lang">
+            C++
+        </label><br>
+        <label>
+            <input type="radio" name="lang">
+            Java
+        </label><br>
+        <label>
+            <input type="radio" name="lang">
+            Python
+        </label><br> <br>
+
+        <label>
+            Extra information <br>
+            <textarea rows="10" cols="38" placeholder="Type here"></textarea> <br> <br>
+        </label>
+        <label> <br> <br>
+            The Secret Word : <br>
+            <input type="password" required>
+        </label> <br> <br>
+
+        <button>Send</button>
+        <input type="reset">
+        
+    </form>
+
+
+
+
+
+
+    <main>
+        <p><b>First payment is after 6 months</b></p>
+        <h1>The job of a Python - <br>Developer</h1>
+        <p class="description">During the practical 
+            part you are going to write programms and 
+            develop web-<br>applocations with the individual help of a mentor. <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing. <br>
+        </p>
+
+        <button>Entroll into the course</button>
+    </main>
+
+
+body {
+    background-color:cornflowerblue;
+}
+
+main {
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 12px;
+    border: 0px solid;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: darkslateblue;
+}
+
+
+
+
+
+
+
+
+
+<main>
+        <h2>Инструкция по установке</h2>
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, tempore.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deserunt.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, maxime. <br>
+            <span class="path">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+        </p>
+
+        <a href="#">Lorem ipsum dolor sit amet.> </a>
+
+        <div class="footer">
+            <button class="btn1">Download from Google Disk</button>
+            <button class="btn2">Previous Versions ></button>
+            <span class="sec">
+                <img src="./2190995_circle_green_lock_privacy_safe_icon.png">
+                Secure
+            </span>
+        </div>
+
+    </main>
+
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 680px;
+    background-color: rgb(57, 57, 57);
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 50px 30px;
+    margin: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+.description {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.description .path {
+    color: rgb(135, 135, 135);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(64, 64, 255);
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.btn1 {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(9, 206, 9);
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    height: 35px;
+}
+
+.btn2 {
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: rgb(50, 50, 254);
+    width: 150px;
+    height: 35px;
+    margin-left: 8px;
+    background-color:rgb(36, 36, 36);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.sec {
+    color: rgb(9, 206, 9);
+    margin-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+<main>
+        <div class="head">
+            <p>Enroll</p>
+            <h1>Sign up</h1>
+        </div>
+
+
+        <form>
+            <input class="inp" type="text" placeholder="Full Name" required> <br>
+
+            <input class="inp" type="text" placeholder="Phone Number" required> <br>
+
+            <select class="inp">
+                <option>Course 1</option>
+                <option>Course 2</option>
+                <option>Course 3</option>
+            </select> <br>
+
+            <select class="inp">
+                <option>Course 1</option>
+                <option>Course 2</option>
+                <option>Course 3</option>
+            </select>
+            
+
+        
+
+        <div class="description">
+            <p>Course Duration: <span>5 months</span></p>
+            <p>Number of lessons per week: <span>2 lessons per week</span></p>
+            <p>Monthly payment: <span>100$</span></p>
+            <p>The total cost of the course: <span>600$</span></p>
+        </div>
+
+        <button>Send</button>
+    </form>
+    </main>
+
+    main {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 40px 30px;
+    width: 800px;
+    /* height: 800px; */
+    /* background-color: rgb(210, 210, 210); */
+    border: 3px solid rgb(35, 35, 255);
+    border-radius: 8px;
+}
+
+.head p {
+    font-size: 18px;
+    color: rgb(49, 49, 255);
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.inp {
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+
+.description p {
+    margin-top: 5px;
+}
+
+.description span {
+    color: rgb(49, 49, 255);
+}
+
+button {
+    width: 600px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 65px;
+    color: white;
+    background-color: rgb(36, 36, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+
+<div class="block1">
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+        <div class="item">
+            <div class="mini"></div>
+            <div class="mini"></div>
+            <div class="mini"></div>
+        </div>
+    </div>
+
+
+.block1 {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: orange;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.block2 {
+    display: flex;
+    /* gap: 20px; */
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: orange;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 250px;
+    height: 230px;
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.block1 .item {
+    border: 2px solid red;
+}
+
+
+
+.item .mini {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+
+
+
+
+
+<header>
+
+        <div class="left">
+            <h5>dribble</h5>
+            <a href="#">Inspiration</a>
+            <a href="#">Find Work</a>
+            <a href="#">Learn Design</a>
+            <a href="#">Go Pro</a>
+            <a href="#">Desig Files</a>
+            <a href="#">Hire Designers</a>
+        </div>
+
+        <div class="right">
+            <div class="find">
+                <img src="./search.png" alt="">
+            </div>
+            <button class="sign">Sign in</button>
+            <button class="share">Share my work</button>
+        </div>
+
+    </header>
+    
+    <div class="top">
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+        <div class="block">
+            <div class="pic">
+                <img src="./island.jpeg" alt="">
+            </div> <br>
+            <div class="text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. <br> Lorem ipsum dolor sit <br> amet consectetur, adipisicing <br> elit. <br>  Similique, magni! 
+                    <br> Accusantium provident id <br> neque, <br> 
+                    ullam ducimus molestiae esse sunt. <br> Exercitationem, ipsa voluptatem!</p>
+            </div> <br>
+            <div class="btn">
+                <button>Here's why</button>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* background-color: orange; */
+}
+
+.right img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: -14px;
+}
+
+
+header .right {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+header .right button {
+    width: 120px;
+    height: 35px;
+}
+
+.sign {
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: gray;
+}
+
+.share {
+    background-color: rgb(255, 86, 115);
+    border: none;
+    border-radius: 8px;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .left h5 {
+    font-family: "Danfo";
+    font-size: 26px;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 1000px;
+    /* background-color: orange; */
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 1000px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    padding-bottom: 20px;
+    border: 1px solid #ffffff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    background-color: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

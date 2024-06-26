@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1300px;
+    /* background-color: aqua; */
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.adobe {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns button {
+    border-radius: 12px;
+    transition: 300ms;
+}
+
+.btns button:hover {
+    border-radius: 12px;
+    background-color: orange;
+}
+
+.sign {
+    width: 70px;
+    background-color: white;
+    border: 1px solid gray;
+    height: 29px;
+    /* border-radius: 12px; */
+}
+
+.register {
+    width: 120px;
+    color: white;
+    border: none;
+    background-color: rgb(58, 58, 255);
+    height: 32px;
+}
+
+.searchMenu {
+    display: flex;
+    align-items: center;
+}
+
+.searchLeft {
+    width: 760px;
+    border: 1px solid rgb(175, 175, 175);
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+}
+
+.searchLeft input {
+    font-size: 18px;
+    border: none;
+    width: 730px;
+    height: 40px;
+    background-color: rgb(234, 234, 234);
+}
+
+.searchRight {
+    width: 740px;
+    height: 42px;
+    border: 1px solid rgb(175, 175, 175);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.searchRight {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.choice {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+.choiceLeft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.optionBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    padding-left: 3px;
+}
+
+.choice select {
+    border: none;
+}
+
+.choiceRight {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 1300px;
+    margin-bottom: 50px;
+}
+
+.mainUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 400px;
+    /* background-color: orange; */
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua;    */
+}
+
+.descriptionRight {
+    display: flex;
+    gap: 10px;
+}

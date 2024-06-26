@@ -1,0 +1,273 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1430px;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* background-color: orange; */
+    display: flex;
+    gap: 40px;
+}
+/* 1430 - 700 = 730 */
+aside {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 240px;
+    height: 100vh;
+    border-right: 1px solid gray;
+    display: flex;
+    gap: 260px;
+    flex-direction: column;
+    position: sticky;
+    top: 20px;
+    /* background-color: aqua; */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.linkBox {
+    /* background-color: aqua; */
+    width: 180px;
+}
+
+.linkBox button {
+    background-color: #1e1e1e;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    border: none;
+}
+
+.linkBox button a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.linkBox button a img {
+    width: 30px;
+    height: 30px;
+}
+
+.linkBox button a span {
+    display: block;
+    width: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.reference {
+    color: white;
+    font-size: 14px;
+}
+
+.asideBottom button {
+    width: 150px;
+    height: 35px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.asideBottom button a {
+    color: white;
+}
+
+header {
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 750px;
+    /* background-color: green; */
+}
+
+.inp {
+    width: 670px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #2e2e2e;
+    border-radius: 6px;
+    background-color: #262626;
+}
+
+.inp img {
+    width: 25px;
+    height: 25px;
+}
+
+.inp input {
+    width: 630px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    background-color: #262626;
+}
+
+.translate a {
+    display: flex;
+    gap: 8px;
+    color: white;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerRight button {
+    width: 80px;
+    height: 40px;
+    background-color: #0080ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ad {
+    padding: 30px;
+    margin-top: 30px;
+    width: 1118px;
+    height: 403px;
+    background-image: url(/images/office.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: white;
+}
+
+.info h2 {
+    margin-top: 20px;
+}
+
+.info button {
+    margin-top: 30px;
+    width: 160px;
+    height: 48px;
+    background-color: #0080ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15=px;
+}
+
+.scroll {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btns {
+    display: flex;
+    gap: 8px;
+}
+
+.scroll button {
+    width: 35px;
+    height: 6px;
+    border: 100px;
+    background-color: gray;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.scroll button:hover {
+    background-color: white;
+}
+
+.empty {
+    width: 300px;
+}
+
+/* .wrap {
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: orange; 
+    width: 800px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px;
+    grid-area: 400px;
+    grid-gap: 30px;
+}
+
+.item {
+    background-color: red;
+} */
+
+.apps {
+    margin-bottom: 50px;
+}
+
+.appsDes {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.appsDes span {
+    color: rgb(130, 130, 254);
+    cursor: pointer;
+}
+
+.content {
+    width: 1118px;
+    display: grid;
+    grid-template-columns: repeat(4, 254px);
+    grid-template-rows: repeat(3, 165px);
+    grid-gap: 35px;
+}
+
+.app {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #555555;
+    border: 2px solid #2c2c2c;
+    border-radius: 8px;
+}
+
+.app img {
+    width: 60px;
+    height: 60px;
+}
