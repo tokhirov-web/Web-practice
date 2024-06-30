@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.text {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.text::after {
+    content: '';
+    color: red;
+    animation: text 3s infinite 200ms;
+}
+
+@keyframes text {
+
+    0% {
+
+        content: 'Thi';
+
+    }
+
+    20% {
+
+        content: 'This is';
+
+    }
+
+    40% {
+
+        content: 'This is n';
+
+    }
+
+    60% {
+
+        content: 'This is not ';
+
+    }
+
+    75% {
+
+        content: 'This is not Jav';
+
+    }
+
+    80% {
+
+        content: 'This is not Javascri';
+
+    }
+
+    100% {
+
+        content: 'This is not Javascript';
+
+    }
+
+}
+
+.animationBox {
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 450px;
+}
+
+.common {
+    border-radius: 230px;
+    width: 240px;
+    height: 230px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animBox1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: firstAnim 2s infinite 300ms;
+}
+
+@keyframes firstAnim {
+
+    0% {
+
+        border-radius: 230px;
+        
+    }
+    
+    50% {
+        border-radius: 0px;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        border-radius: 230px;
+        transform: rotate(360deg);
+    }
+
+}
+
+.animBox2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: secondAnim 2s infinite 200ms;
+}
+
+@keyframes secondAnim {
+
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    75% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: blue;
+    }
+
+}
+
+#box3 {
+    width: 240px;
+    height: 230px;
+    position: relative;
+}
+
+.animBox3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50px;
+    animation: thirdAnim 3s infinite 300ms;
+}
+
+@keyframes thirdAnim {
+
+    0% {
+        background-color: blue;
+        border-radius: 50px;
+    }
+    
+    20% {
+        background-color: red;
+        margin: 0px 0px 0px -250px;
+        border-radius: 50px;
+    }
+    
+    40% {
+        background-color: black;
+        margin: -250px 0px 0px 0px;
+        border-radius: 50px;
+        transform: rotate(360deg);
+    }
+    
+    60% {
+        background-color: green;
+        margin: 0px -250px 0px 0px;
+        border-radius: 0px;
+    }
+    
+    80% {
+        background-color: purple;
+        margin: 0px 0px -250px 0px;
+    }
+
+    100% {
+        margin: 0px 0px 0px 0px;
+    }
+
+}
